@@ -1,4 +1,4 @@
-package SuperKeyword;
+package MoreInheritanceconcepts;
 
 public class Parent {
     int a,b;
