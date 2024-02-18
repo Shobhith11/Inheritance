@@ -8,7 +8,14 @@ public class RunTimeBinding {
         m1.Start();
         m1.shutdown();
 
+        MACBookPro m3 = (MACBookPro) m1;
+
+        m3.Start();
+        m3.shutdown();
+
         m2.Start();
         m2.shutdown();
+
+        MACBookAir m4 = (MACBookAir)  m2;
     }
 }
