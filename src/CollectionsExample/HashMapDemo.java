@@ -1,9 +1,6 @@
 package CollectionsExample;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class HashMapDemo {
     public static void main(String[] args) {
@@ -15,7 +12,7 @@ public class HashMapDemo {
         map.put("Lee", 99);
         map.put("Brod", 88);
 
-        Set<String> keySet = map.keySet();
+        Collection<String> keySet = map.keySet();
         System.out.println("Key:" + keySet);
 
         Collection<Integer> values = map.values();
